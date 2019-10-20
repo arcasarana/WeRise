@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quiz</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet/less" type="text/css" href="styles.less">
+  </head>
+  <body class="quiz">
+    <!-- Our Code Starts Here -->
+
+    <!-- Section: Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="nv">
+          <a class="navbar-brand" href="#"> <!--start home icon + home-->
+            <i class="fas fa-home fa-lg"></i>
+          </a><!-- end home icon + home-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Paths<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Media<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Community<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Profile<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"><i class="fas fa-chart-bar fa-2x"></i><span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+    <div class="container-fluid margin-style-02"><!--start outer container-->
+      <div class="row">
+
+        <div class="col-2 sty border border-primary" id="bp-orig"><!-- Section: Badge Path -->
+          <div>
+            <div class="row div-style-01 rcorners">
+              <h2>Badge Pathway</h2>
+            </div>
+          </div>
+            <ol class="list-group vertical-steps">
+              <li class="list-group-item completed"><span>Assessment</span></li>
+              <li class="list-group-item completed"><span>Common Mistakes</span></li>
+              <li class="list-group-item completed"><span>Do's & Don'ts</span></li>
+              <li class="list-group-item completed"><span>Language to Avoid</span></li>
+              <li class="list-group-item completed"><span>Put the Person First</span></li>
+              <li class="list-group-item completed"><span>Offering Help</span></li>
+              <li class="list-group-item active"><span>Overview &#38; Next Steps</span></li>
+              <li class="list-group-item"><span><img src="images/badge04.png" alt="badge" width="50"></span></li>
+            </ol>
+        </div>
+
+        <div class="col border border-primary pg-top"><!-- Section: Quiz Column -->
+          <div class="row justify-content-center">
+
+            <div class="col-md-6">
+
+              <!-- Questions -->
+
+                <h2 class="h2 t-thick">Quiz</h2>
+
+
+                <h4 class="h4">Question 5 of 5</h4>
+
+
+                <p class="h4 mg-top-02 res-txt">Words such as wheelchair bound, handicapped or special needs are acceptable to use.</p>
+
+              <!-- Radio -->
+              <div class="radio">
+                <label><input type="radio" name="optradio">  True</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="optradio">  False</label>
+              </div>
+              <!-- Buttons -->
+              <div class="row pg-top-bot">
+                <div class="col">
+                  <div class="text-right">
+                    <button type="button" class="btn btn-link" id="rev-orig">Review</button>
+                    <a class="btn btn-primary" href="badge.html" role="button">Submit</a>
+                    <button type="button" class="btn btn-link" id="rev-new">Review</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div><!--end outer container-->
+
+    <!-- Our Code Ends Here -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>
